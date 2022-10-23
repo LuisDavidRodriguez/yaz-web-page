@@ -1,0 +1,38 @@
+@use '../../../styles/functions' as f;
+@use '../../../styles/variables' as v;
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 100%;
+  background-color: f.get-color('background');
+  background-image: url('./blizzard.png');
+  padding: 5px;
+  font-family: v.$fontFamilyLato;
+  color: f.get-color('primary');
+}
+
+.body {
+  height: 80%;
+
+  .title {
+    font-family: v.$fontFamilyRobotoSlab;
+    font-size: 1.5em;
+  }
+
+  .subtitle {
+    color: lighten($color: f.get-color('primary'), $amount: 10);
+  }
+
+  .p1 {
+    margin-top: 30px;
+    line-height: 1.5em;
+  }
+}
+
+.footer {
+  height: 20%;
+}
