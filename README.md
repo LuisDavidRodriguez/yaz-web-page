@@ -3,6 +3,9 @@
 ## Description
 This application will be an online store for Yaz-Fortozo Mexico.
 
+![Mi video-36](https://user-images.githubusercontent.com/105079888/197407023-630033d2-6f03-4d43-b79a-5da567a384c6.gif)
+
+
 ## Builded with:
 - React & Redux
 - SASS modules
