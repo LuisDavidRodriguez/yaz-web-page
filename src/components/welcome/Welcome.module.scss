@@ -1,0 +1,8 @@
+@use '../../styles/variables' as v;
+
+.welcomeContainer {
+  // we need absotule units to keep in correct dimensions the Swiper slider
+  height: 500px;
+  width: 100vw;
+  margin-top: 30px;
+}
